@@ -1,0 +1,132 @@
+/* ========================================
+   THEMES.CSS — Dark Luxury / Neo Minimal
+   ======================================== */
+
+/* --- Dark Mode — "Dark Luxury" --- */
+[data-theme="dark"] {
+  --bg-primary: #0D0D0D;
+  --bg-secondary: #111111;
+  --bg-card: #1A1A1A;
+  --bg-card-hover: #222222;
+  --bg-nav: rgba(13, 13, 13, 0.92);
+  --bg-hero-overlay: rgba(13, 13, 13, 0.7);
+
+  --text-primary: #E8E8E8;
+  --text-secondary: #A0A0A0;
+  --text-heading: #FFFFFF;
+  --text-muted: #6B6B6B;
+  --text-on-accent: #FFFFFF;
+
+  --accent-primary: #D4AF37;
+  --accent-secondary: #5B0A1B;
+  --accent-hover: #E5C04B;
+  --accent-glow: rgba(212, 175, 55, 0.3);
+  --accent-glow-strong: rgba(212, 175, 55, 0.5);
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(212, 175, 55, 0.3);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 8px 30px rgba(212, 175, 55, 0.15);
+
+  --gradient-hero: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.85) 100%);
+
+  --toggle-bg: #2A2A2A;
+  --toggle-knob: #D4AF37;
+
+  --faq-bg: #1A1A1A;
+  --faq-border: rgba(255, 255, 255, 0.06);
+  --faq-icon: #D4AF37;
+
+  --input-bg: #1A1A1A;
+  --input-border: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Light Mode — "Neo Minimal" --- */
+[data-theme="light"] {
+  --bg-primary: #FAFAF8;
+  --bg-secondary: #F2F1EF;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F7F7F5;
+  --bg-nav: rgba(250, 250, 248, 0.92);
+  --bg-hero-overlay: rgba(250, 250, 248, 0.6);
+
+  --text-primary: #2D2D2D;
+  --text-secondary: #6B6B6B;
+  --text-heading: #1A1A1A;
+  --text-muted: #999999;
+  --text-on-accent: #FFFFFF;
+
+  --accent-primary: #7A8B6F;
+  --accent-secondary: #C4A882;
+  --accent-hover: #6B7D60;
+  --accent-glow: rgba(122, 139, 111, 0.2);
+  --accent-glow-strong: rgba(122, 139, 111, 0.35);
+
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-color-hover: rgba(122, 139, 111, 0.3);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.1);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --shadow-card-hover: 0 8px 30px rgba(122, 139, 111, 0.12);
+
+  --gradient-hero: linear-gradient(180deg, rgba(250,250,248,0) 0%, rgba(250,250,248,0.85) 100%);
+
+  --toggle-bg: #E0DFD9;
+  --toggle-knob: #7A8B6F;
+
+  --faq-bg: #FFFFFF;
+  --faq-border: rgba(0, 0, 0, 0.08);
+  --faq-icon: #7A8B6F;
+
+  --input-bg: #FFFFFF;
+  --input-border: rgba(0, 0, 0, 0.12);
+}
+
+/* --- Default to dark --- */
+:root {
+  --bg-primary: #0D0D0D;
+  --bg-secondary: #111111;
+  --bg-card: #1A1A1A;
+  --bg-card-hover: #222222;
+  --bg-nav: rgba(13, 13, 13, 0.92);
+  --bg-hero-overlay: rgba(13, 13, 13, 0.7);
+
+  --text-primary: #E8E8E8;
+  --text-secondary: #A0A0A0;
+  --text-heading: #FFFFFF;
+  --text-muted: #6B6B6B;
+  --text-on-accent: #FFFFFF;
+
+  --accent-primary: #D4AF37;
+  --accent-secondary: #5B0A1B;
+  --accent-hover: #E5C04B;
+  --accent-glow: rgba(212, 175, 55, 0.3);
+  --accent-glow-strong: rgba(212, 175, 55, 0.5);
+
+  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color-hover: rgba(212, 175, 55, 0.3);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.6);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --shadow-card-hover: 0 8px 30px rgba(212, 175, 55, 0.15);
+
+  --gradient-hero: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.85) 100%);
+
+  --toggle-bg: #2A2A2A;
+  --toggle-knob: #D4AF37;
+
+  --faq-bg: #1A1A1A;
+  --faq-border: rgba(255, 255, 255, 0.06);
+  --faq-icon: #D4AF37;
+
+  --input-bg: #1A1A1A;
+  --input-border: rgba(255, 255, 255, 0.1);
+}
