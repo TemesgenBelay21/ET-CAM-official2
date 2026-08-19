@@ -35,7 +35,7 @@
 }
 
 .nav__logo-text {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-heading);
@@ -247,7 +247,7 @@
   border-radius: 12px;
   font-size: 1rem;
   font-weight: 600;
-  font-family: 'Sora', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   transition: all 0.3s ease;
   cursor: pointer;
   border: none;
@@ -329,7 +329,7 @@
 }
 
 .stat-card__number {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 3rem;
   font-weight: 800;
   color: var(--accent-primary);
@@ -592,7 +592,7 @@
 }
 
 .faq-item__question {
-  font-family: 'Sora', sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
   font-size: 1rem;
   font-weight: 600;
   color: var(--text-heading);
