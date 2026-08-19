@@ -5,8 +5,12 @@
 /* --- Tablet & Below (max-width: 1024px) --- */
 @media (max-width: 1024px) {
   .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .section__header {
+    margin-bottom: 56px;
   }
 
   .stats-row {
@@ -40,8 +44,8 @@
   }
 
   .section {
-    padding-top: 64px;
-    padding-bottom: 64px;
+    padding-top: 72px;
+    padding-bottom: 72px;
   }
 
   .section__header {
@@ -55,16 +59,16 @@
     left: 0;
     right: 0;
     background: var(--bg-nav);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(24px) saturate(1.2);
+    -webkit-backdrop-filter: blur(24px) saturate(1.2);
     flex-direction: column;
     padding: 24px;
-    gap: 16px;
+    gap: 8px;
     border-bottom: 1px solid var(--border-color);
     transform: translateY(-100%);
     opacity: 0;
     visibility: hidden;
-    transition: all 0.3s ease;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
   .nav__links--open {
@@ -73,8 +77,30 @@
     visibility: visible;
   }
 
+  .nav__link {
+    display: block;
+    padding: 12px 16px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  .nav__link:hover {
+    background: var(--accent-glow);
+  }
+
+  .nav__link::after {
+    display: none;
+  }
+
   .nav__menu-btn {
     display: flex;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .nav__actions {
@@ -84,6 +110,10 @@
   /* Hero */
   .hero__content {
     padding: 100px 20px 60px;
+  }
+
+  .hero__title {
+    font-size: clamp(2rem, 6vw, 3rem);
   }
 
   .hero__description {
@@ -190,6 +220,7 @@
 
   .hero__description {
     font-size: 1rem;
+    line-height: 1.65;
   }
 
   .hero__cta-group {
@@ -199,12 +230,14 @@
 
   .hero__cta-group .btn {
     width: 100%;
+    min-height: 48px;
   }
 
   /* Buttons */
   .btn {
     padding: 12px 24px;
     font-size: 0.9375rem;
+    min-height: 44px;
   }
 
   /* Stat cards */
@@ -232,23 +265,34 @@
   /* FAQ */
   .faq-item__trigger {
     padding: 16px 20px;
+    min-height: 52px;
   }
 
   .faq-item__answer-inner {
     padding: 0 20px 16px;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
   }
 
   /* Scroll to top */
   .scroll-top {
     bottom: 20px;
     right: 20px;
-    width: 44px;
-    height: 44px;
+    width: 48px;
+    height: 48px;
   }
 
   /* Social links */
   .social-link {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* Contact */
+  .contact-item {
+    gap: 12px;
+  }
+
+  .contact-item__icon {
     width: 44px;
     height: 44px;
   }
