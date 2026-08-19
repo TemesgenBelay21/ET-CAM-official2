@@ -138,7 +138,7 @@ small {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--accent-primary);
+  background: var(--gradient-accent);
   border-radius: 4px;
 }
 

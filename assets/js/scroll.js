@@ -3,6 +3,20 @@
    ======================================== */
 
 (function() {
+  // --- Nav Scroll Shadow ---
+  const navbar = document.getElementById('navbar');
+
+  function handleNavScroll() {
+    if (!navbar) return;
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
+    } else {
+      navbar.classList.remove('scrolled');
+    }
+  }
+
+  window.addEventListener('scroll', handleNavScroll, { passive: true });
+
   // --- Scroll to Top Button ---
   const scrollTopBtn = document.getElementById('scrollTopBtn');
 
