@@ -1,132 +1,138 @@
 /* ========================================
-   THEMES.CSS — Dark Luxury / Neo Minimal
+   THEMES.CSS — Dark Electric / Light Clean
    ======================================== */
 
-/* --- Dark Mode — "Dark Luxury" --- */
+/* --- Dark Mode — "Dark Electric" --- */
 [data-theme="dark"] {
-  --bg-primary: #0D0D0D;
-  --bg-secondary: #111111;
-  --bg-card: #1A1A1A;
-  --bg-card-hover: #222222;
-  --bg-nav: rgba(13, 13, 13, 0.92);
-  --bg-hero-overlay: rgba(13, 13, 13, 0.7);
+  --bg-primary: #0A0A0F;
+  --bg-secondary: #101018;
+  --bg-card: #14141F;
+  --bg-card-hover: #1A1A2E;
+  --bg-nav: rgba(10, 10, 15, 0.92);
+  --bg-hero-overlay: rgba(10, 10, 15, 0.75);
 
-  --text-primary: #E8E8E8;
-  --text-secondary: #A0A0A0;
+  --text-primary: #E4E4E9;
+  --text-secondary: #9B9BB0;
   --text-heading: #FFFFFF;
-  --text-muted: #6B6B6B;
+  --text-muted: #5C5C72;
   --text-on-accent: #FFFFFF;
 
-  --accent-primary: #D4AF37;
-  --accent-secondary: #5B0A1B;
-  --accent-hover: #E5C04B;
-  --accent-glow: rgba(212, 175, 55, 0.3);
-  --accent-glow-strong: rgba(212, 175, 55, 0.5);
+  --accent-primary: #3B82F6;
+  --accent-secondary: #6366F1;
+  --accent-hover: #60A5FA;
+  --accent-glow: rgba(59, 130, 246, 0.25);
+  --accent-glow-strong: rgba(59, 130, 246, 0.45);
 
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-color-hover: rgba(212, 175, 55, 0.3);
+  --border-color: rgba(255, 255, 255, 0.07);
+  --border-color-hover: rgba(59, 130, 246, 0.35);
 
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.6);
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
-  --shadow-card-hover: 0 8px 30px rgba(212, 175, 55, 0.15);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.65);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.45);
+  --shadow-card-hover: 0 8px 32px rgba(59, 130, 246, 0.15);
 
-  --gradient-hero: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.85) 100%);
+  --gradient-hero: linear-gradient(180deg, rgba(10,10,15,0) 0%, rgba(10,10,15,0.88) 100%);
+  --gradient-accent: linear-gradient(135deg, #3B82F6, #6366F1);
+  --gradient-card-hover: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(99,102,241,0.08));
 
-  --toggle-bg: #2A2A2A;
-  --toggle-knob: #D4AF37;
+  --toggle-bg: #1E1E30;
+  --toggle-knob: #3B82F6;
 
-  --faq-bg: #1A1A1A;
-  --faq-border: rgba(255, 255, 255, 0.06);
-  --faq-icon: #D4AF37;
+  --faq-bg: #14141F;
+  --faq-border: rgba(255, 255, 255, 0.05);
+  --faq-icon: #3B82F6;
 
-  --input-bg: #1A1A1A;
+  --input-bg: #14141F;
   --input-border: rgba(255, 255, 255, 0.1);
 }
 
-/* --- Light Mode — "Neo Minimal" --- */
+/* --- Light Mode — "Clean Light" --- */
 [data-theme="light"] {
-  --bg-primary: #FAFAF8;
-  --bg-secondary: #F2F1EF;
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #F1F5F9;
   --bg-card: #FFFFFF;
-  --bg-card-hover: #F7F7F5;
-  --bg-nav: rgba(250, 250, 248, 0.92);
-  --bg-hero-overlay: rgba(250, 250, 248, 0.6);
+  --bg-card-hover: #F8FAFC;
+  --bg-nav: rgba(248, 250, 252, 0.92);
+  --bg-hero-overlay: rgba(248, 250, 252, 0.65);
 
-  --text-primary: #2D2D2D;
-  --text-secondary: #6B6B6B;
-  --text-heading: #1A1A1A;
-  --text-muted: #999999;
+  --text-primary: #1E293B;
+  --text-secondary: #64748B;
+  --text-heading: #0F172A;
+  --text-muted: #94A3B8;
   --text-on-accent: #FFFFFF;
 
-  --accent-primary: #7A8B6F;
-  --accent-secondary: #C4A882;
-  --accent-hover: #6B7D60;
-  --accent-glow: rgba(122, 139, 111, 0.2);
-  --accent-glow-strong: rgba(122, 139, 111, 0.35);
+  --accent-primary: #2563EB;
+  --accent-secondary: #4F46E5;
+  --accent-hover: #1D4ED8;
+  --accent-glow: rgba(37, 99, 235, 0.15);
+  --accent-glow-strong: rgba(37, 99, 235, 0.3);
 
-  --border-color: rgba(0, 0, 0, 0.08);
-  --border-color-hover: rgba(122, 139, 111, 0.3);
+  --border-color: rgba(0, 0, 0, 0.07);
+  --border-color-hover: rgba(37, 99, 235, 0.3);
 
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.1);
-  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
-  --shadow-card-hover: 0 8px 30px rgba(122, 139, 111, 0.12);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.09);
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.05);
+  --shadow-card-hover: 0 8px 32px rgba(37, 99, 235, 0.12);
 
-  --gradient-hero: linear-gradient(180deg, rgba(250,250,248,0) 0%, rgba(250,250,248,0.85) 100%);
+  --gradient-hero: linear-gradient(180deg, rgba(248,250,252,0) 0%, rgba(248,250,252,0.88) 100%);
+  --gradient-accent: linear-gradient(135deg, #2563EB, #4F46E5);
+  --gradient-card-hover: linear-gradient(135deg, rgba(37,99,235,0.05), rgba(79,70,229,0.05));
 
-  --toggle-bg: #E0DFD9;
-  --toggle-knob: #7A8B6F;
+  --toggle-bg: #E2E8F0;
+  --toggle-knob: #2563EB;
 
   --faq-bg: #FFFFFF;
-  --faq-border: rgba(0, 0, 0, 0.08);
-  --faq-icon: #7A8B6F;
+  --faq-border: rgba(0, 0, 0, 0.07);
+  --faq-icon: #2563EB;
 
   --input-bg: #FFFFFF;
-  --input-border: rgba(0, 0, 0, 0.12);
+  --input-border: rgba(0, 0, 0, 0.1);
 }
 
 /* --- Default to dark --- */
 :root {
-  --bg-primary: #0D0D0D;
-  --bg-secondary: #111111;
-  --bg-card: #1A1A1A;
-  --bg-card-hover: #222222;
-  --bg-nav: rgba(13, 13, 13, 0.92);
-  --bg-hero-overlay: rgba(13, 13, 13, 0.7);
+  --bg-primary: #0A0A0F;
+  --bg-secondary: #101018;
+  --bg-card: #14141F;
+  --bg-card-hover: #1A1A2E;
+  --bg-nav: rgba(10, 10, 15, 0.92);
+  --bg-hero-overlay: rgba(10, 10, 15, 0.75);
 
-  --text-primary: #E8E8E8;
-  --text-secondary: #A0A0A0;
+  --text-primary: #E4E4E9;
+  --text-secondary: #9B9BB0;
   --text-heading: #FFFFFF;
-  --text-muted: #6B6B6B;
+  --text-muted: #5C5C72;
   --text-on-accent: #FFFFFF;
 
-  --accent-primary: #D4AF37;
-  --accent-secondary: #5B0A1B;
-  --accent-hover: #E5C04B;
-  --accent-glow: rgba(212, 175, 55, 0.3);
-  --accent-glow-strong: rgba(212, 175, 55, 0.5);
+  --accent-primary: #3B82F6;
+  --accent-secondary: #6366F1;
+  --accent-hover: #60A5FA;
+  --accent-glow: rgba(59, 130, 246, 0.25);
+  --accent-glow-strong: rgba(59, 130, 246, 0.45);
 
-  --border-color: rgba(255, 255, 255, 0.08);
-  --border-color-hover: rgba(212, 175, 55, 0.3);
+  --border-color: rgba(255, 255, 255, 0.07);
+  --border-color-hover: rgba(59, 130, 246, 0.35);
 
-  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.5);
-  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.6);
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
-  --shadow-card-hover: 0 8px 30px rgba(212, 175, 55, 0.15);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.55);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.65);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.45);
+  --shadow-card-hover: 0 8px 32px rgba(59, 130, 246, 0.15);
 
-  --gradient-hero: linear-gradient(180deg, rgba(13,13,13,0) 0%, rgba(13,13,13,0.85) 100%);
+  --gradient-hero: linear-gradient(180deg, rgba(10,10,15,0) 0%, rgba(10,10,15,0.88) 100%);
+  --gradient-accent: linear-gradient(135deg, #3B82F6, #6366F1);
+  --gradient-card-hover: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(99,102,241,0.08));
 
-  --toggle-bg: #2A2A2A;
-  --toggle-knob: #D4AF37;
+  --toggle-bg: #1E1E30;
+  --toggle-knob: #3B82F6;
 
-  --faq-bg: #1A1A1A;
-  --faq-border: rgba(255, 255, 255, 0.06);
-  --faq-icon: #D4AF37;
+  --faq-bg: #14141F;
+  --faq-border: rgba(255, 255, 255, 0.05);
+  --faq-icon: #3B82F6;
 
-  --input-bg: #1A1A1A;
+  --input-bg: #14141F;
   --input-border: rgba(255, 255, 255, 0.1);
 }
