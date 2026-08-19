@@ -81,10 +81,6 @@
     gap: 8px;
   }
 
-  .toggle-label {
-    display: none;
-  }
-
   /* Hero */
   .hero__content {
     padding: 100px 20px 60px;

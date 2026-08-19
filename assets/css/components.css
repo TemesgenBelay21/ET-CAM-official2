@@ -132,32 +132,6 @@
   min-width: 20px;
 }
 
-/* --- Language Toggle --- */
-.lang-toggle {
-  display: flex;
-  align-items: center;
-  gap: 0;
-  background: var(--toggle-bg);
-  border-radius: 20px;
-  padding: 4px;
-  border: 1px solid var(--border-color);
-}
-
-.lang-toggle__btn {
-  padding: 4px 12px;
-  border-radius: 16px;
-  font-size: 0.8125rem;
-  font-weight: 600;
-  color: var(--text-muted);
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.lang-toggle__btn--active {
-  background: var(--accent-primary);
-  color: var(--text-on-accent);
-}
-
 /* --- Mobile Menu Button --- */
 .nav__menu-btn {
   display: none;
